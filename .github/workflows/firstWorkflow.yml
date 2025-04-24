@@ -1,0 +1,38 @@
+# name of a workflow
+name: first workflow
+
+# name of the workflow to be displayed in the log of logs ran
+run-name: "first workflow is running, and that's me :D @${{ github.actor }}"
+
+# automatically triggers a workflow on a specific event. There are several ways of defining those events:
+# first, for an event
+on: push
+
+
+# second, for multiple events
+# on: [push, fork]
+
+# third, for versions of events (an event can have multiple versions)
+# on:
+#   issues:
+#     types:
+#       -opened
+
+# fourth, to apply filters
+# on:
+#   push:
+#   branches:
+#     -main
+
+jobs:
+  first-job:
+    name: "First job"
+    
+    # define virtual machine to be used to perform jobs
+    runs-on: Ubuntu
+    
+    # define tasks
+    steps: 
+      #first task
+      - name: print something cool
+        run: echo "It's cool :D"
