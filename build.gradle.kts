@@ -6,4 +6,5 @@ plugins {
     id("com.android.library") version "8.8.0-alpha05" apply false
     id("com.android.dynamic-feature") version "8.8.0-alpha05" apply false
     id("com.google.devtools.ksp") version "2.0.21-1.0.27" apply false
+    id("com.google.dagger.hilt.android") version "2.56.1" apply false
 }
