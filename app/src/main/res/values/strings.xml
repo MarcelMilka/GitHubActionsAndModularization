@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GitHubActionsAndModularization</string>
+    <string name="title_dynamicfeature">CoolModuleIdkWhatItDoes</string>
 </resources>

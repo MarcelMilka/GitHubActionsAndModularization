@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "GitHubActionsAndModularization"
 include(":app")
- 
+include(":features:moduleA")
+include(":features:moduleB")
