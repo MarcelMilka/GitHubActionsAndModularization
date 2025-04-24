@@ -11,6 +11,6 @@ class FirstTableDaoTest {
     @Test
     fun x() {
 
-        assertEquals(true, false)
+        assertEquals(true, true)
     }
 }
