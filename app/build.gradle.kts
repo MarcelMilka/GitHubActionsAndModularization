@@ -34,6 +34,7 @@ android {
     buildFeatures {
         compose = true
     }
+    dynamicFeatures += setOf(":dynamicfeature")
 }
 
 dependencies {
